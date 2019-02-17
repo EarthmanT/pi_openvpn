@@ -1,13 +1,19 @@
 ---
-- name: install dependencies
+
+- name: apt-get update
   apt:
-    name: "{{item}}"
-    state: present
     update_cache: yes
     cache_valid_time: 3600
-  with_items:
-    - ufw
-    - host
+
+- name: install ufw
+  apt:
+    name: ufw
+    state: present
+
+- name: install host
+  apt:
+    name: host
+    state: present
 
 - name: update ufw default forward policy
   lineinfile:

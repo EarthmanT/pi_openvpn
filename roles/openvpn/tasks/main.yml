@@ -6,6 +6,11 @@
     update_cache: yes
     cache_valid_time: 3600
 
+- name: install easyrsa
+  apt:
+    name: easy-rsa
+    state: present
+
 - name: install openvpn
   apt:
     name: openvpn
@@ -100,7 +105,7 @@
 
 - name: copy Diffie-Hellman key
   copy:
-    src: "{{openvpn_dh}}"
+    content: "{{openvpn_dh}}"
     dest: /etc/openvpn/keys/dh.pem
     owner: root
     group: root

@@ -5,7 +5,7 @@ openvpn_protocol: udp
 
 openvpn_dh: /path/to/dh.pem
 
-user: pi
+user: vagrant
 easyrsa_version: EasyRSA-3.0.1
 easyrsa_url: https://github.com/OpenVPN/easy-rsa/releases/download/3.0.1/{{easyrsa_version}}.tgz
 clientside: /home/{{user}}/openvpn/clientside

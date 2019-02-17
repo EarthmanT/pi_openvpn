@@ -7,4 +7,31 @@ openvpn_clients:
 private_subnets:
   - 192.168.10.0 255.255.255.0
 
-openvpn_dh: /path/to/dh.pem
+openvpn_dh: >
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEowIBAAKCAQEAuBRZojuqYPu46gBwDtrwmTHOYrIeddUTuYycppWutfqhPoWc
+  fAKwgDUS/PsaTZ62Kw51Y5Fq3C5EIgTTqgdznECmiMTXRO4Odc4z5zTqVNe2Oyoz
+  ZTMrJ/NCEhb3FYRlpMiBJV+i5LLlOgCOAWstBJ0baO+aI+vXQqwkTOh9jzJ7PsWv
+  +HlRQlIfimckgVTxTzX60Ptu567x1hxQTBpU/SOQKooia7wkW8xubvhXzlhcipi3
+  d19QJLL+JUWqZH1kq/wWCt9iypiBXFzMGhoF7WJhmaqo0AerhypLAPqao5llGWHv
+  PzfRdbkb2/6Q9SF3id96PaSyhuSYQv0tqpm6EQIDAQABAoIBAQCqf77d82HGXqFR
+  rIIeYFAFtQoyhESOY4PXkxPtgCrIx5HeNSdR/bO5rG8f/vzH9D9K9iNoy+IsenYF
+  BG+Ax1If4gneGGRDpjOijhGpD2wUlZBmkJn2HETWxgvmcXr+ZRk4XbaxBTn9lm2X
+  IbhmO/0Ajvw6X+NnbiR9zq/4xEa4ADm85qTuKaYqUn4hfWEU23ruqWfARhc8mVT2
+  z3B+XqYCb8V1+qbTi9mN4xBlN+RSaC1cL1Ypz6y/8HFLgXvgTTiRfE8Tern5fsAT
+  g9CnuV1KfqwzmIusBBAFrZ68e0yxiCGBG3BwuIVTfW0EwdFL3fU2NGqHX6ZaAkjd
+  nzNppX8ZAoGBAN7P7LkEdfimSHdjDclOMavj9FIQHwJG9IW6W9Ig6qh+Xri+4PD/
+  xa9iaIgtanUZA3bduxwBHtYN/eTgWjrZwDzzTDzQG512et4SeGRe5EbQ+1X5nXS6
+  p8JsjFWdTok9ZoV73T6zY9DPc/INcQtVmc5yM5IiYLSnpWb10K1RHKL7AoGBANN/
+  gRwuKLojtM1o3O8xbn4DzdmIQ+TrfZObdY/3c6N7f0gIV6s1cl2ep/dCVmM1fE4J
+  HvLzHnugHHobjYkOwwWiUISOFUB3DrXX/+bEeJqMHp05FAe5Kw8T7gs1l/Ac0n6t
+  2i08JFek99LpjpnztfqjUS41Lzw0nqKns9+DnaljAoGAPRx8SfauQKei4pPZeSgo
+  OYQJQ+TGDILXmEIX4xdCJTqb0kIQQil01/i+wPLr6vgUWirQogqwoXcu9vKN7OxC
+  bLUyaM+Pc23Gn1gjiyv3onC5LsiK5jQ3xPyutOCzZLLhhqUFdqgPLXtoyq/jHH+6
+  8sOh32fsbEA6/nVXaeIAX7cCgYAPiESmGim5idfEYhgfpOS1cngSqrQ5wqWlSnx2
+  xziB4Bb35kzx8OnmQDmbqg6IGKx5WqggNYSelaKhwRZC44elCUeahIjBBD1bU3Ki
+  svkceH/jEgcLjijAYblQr23qH2PCE+h6+/i7Sw08OxTS75gEwSu8FgHTDRY9Yc2O
+  866HewKBgB+16SrFpN9mPWvMSpCXiO9+9LWe/QEw2Mfuwj/YDadQcPZjMvxCMn1+
+  SA55pFK1FsQ7RhA5Sb/EYrVAB4MovBtl9V9KyQ/QPhmjaTK3FKOijXp9H5P3rqdM
+  dPW5r2q28TNtK79YTu+sKdZXB7za6Ngwc7nk9+40puCkXOdS9V3P
+  -----END RSA PRIVATE KEY-----
