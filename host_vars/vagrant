@@ -1,5 +1,5 @@
 ---
-openvpn_server: my.raspberry.example.org
+openvpn_server: my.example.org
 openvpn_clients:
   - client1
   - client2
